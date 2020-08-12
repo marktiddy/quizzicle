@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Trivia - Play Quizzes</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-area">
+        <div class="title">
+          Quizzicle
+        </div>
+        <p class="choice-title">Choose a Topic</p>
+        <div class="choice-area"></div>
+        <p class="error hidden" id="choice-error">You must select a topic</p>
+        <p class="choice-title">How many questions do you want to answer?</p>
+        <div class="number-area"></div>
+        <p class="error hidden" id="number-error">You must select a topic</p>
+
+        <p class="choice-title">Ready to play?</p>
+        <div class="start-area">Let's Go!</div>
+      </div>
+    </div>
+    <div class="score">
+      <p>Score</p>
+      <p id="score-int">0</p>
+    </div>
+  </body>
+  <script src="scripts.js"></script>
+</html>
